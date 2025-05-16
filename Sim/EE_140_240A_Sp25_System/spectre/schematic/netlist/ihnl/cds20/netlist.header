@@ -1,0 +1,5 @@
+
+// Library name: final_project_schematics
+// Cell name: strongarm
+// View name: schematic
+subckt strongarm CLK VDAC VDD VOUT_BIGGER VOUT_SMALLER VSS V_REF

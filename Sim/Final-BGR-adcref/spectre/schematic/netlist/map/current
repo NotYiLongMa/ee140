@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Final-BGR-adcref"
+  repList "spectre veriloga ahdl cmos_sch schematic"
+  stopList "spectre veriloga ahdl"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/cc/ee140/sp25/class/ee140-aax/cadence_finalproj/Sim/Final-BGR-adcref/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "EE_140_240A_Final_Project/Final-BGR-adcref/schematic" "_sub0" )
+( "EE_140_240A_Final_Project/Final_5OTA_LDO-adc/schematic" "_sub1" )
+ )
+( "_sub0" "ihnl/cds1/map" )
+( "_sub1" "ihnl/cds2/map" )
+ )

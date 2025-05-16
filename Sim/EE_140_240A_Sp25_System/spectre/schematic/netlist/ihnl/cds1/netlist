@@ -1,0 +1,8 @@
+    PM0 (B \!CLK A VDD) pfet_01v8 w=(1u) l=150n as=265f ad=265f ps=2.53u \
+        pd=2.53u m=(280)*(1)
+    NM0 (A CLK B VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f ps=2.53u \
+        pd=2.53u m=(70)*(1)
+    I1 (CLK \!CLK VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends mux_switches
+// End of subcircuit definition.

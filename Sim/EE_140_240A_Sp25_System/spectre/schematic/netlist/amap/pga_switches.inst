@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"PM0n" "sky130_fd_pr_main_pfet_01v8_spectre"
+"NM0n" "sky130_fd_pr_main_nfet_01v8_spectre"
+"I1n" "invr_dupe"
+"Av" ":1v"
+"Bv" ":2v"
+"CLKv" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"

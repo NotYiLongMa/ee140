@@ -1,0 +1,12 @@
+    NM2 (VOUT V\- net1 net1) nfet_g5v0d10v5 w=(4u) l=500n as=1.06p \
+        ad=1.06p ps=8.53u pd=8.53u m=(1)*(1)
+    NM1 (net1 VBN VSS VSS) nfet_g5v0d10v5 w=(8u) l=1u as=2.12p ad=2.12p \
+        ps=16.53u pd=16.53u m=(1)*(1)
+    NM0 (net2 V\+ net1 net1) nfet_g5v0d10v5 w=(4u) l=500n as=1.06p \
+        ad=1.06p ps=8.53u pd=8.53u m=(1)*(1)
+    PM1 (net2 net2 VDD VDD) pfet_g5v0d10v5 w=(11u) l=500n as=2.915p \
+        ad=2.915p ps=22.53u pd=22.53u m=(1)*(1)
+    PM0 (VOUT net2 VDD VDD) pfet_g5v0d10v5 w=(11u) l=500n as=2.915p \
+        ad=2.915p ps=22.53u pd=22.53u m=(1)*(1)
+ends final_project_schematics_5t_ota_schematic
+// End of subcircuit definition.

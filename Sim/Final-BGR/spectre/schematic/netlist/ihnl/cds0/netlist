@@ -1,0 +1,47 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: Final-BGR
+// View name: schematic
+R15 (VDD net2) resistor r=2
+R5 (VPTAT net5) resistor r=12.15K
+R2 (V\+ net9) resistor r=12.15k
+R1 (VBG V\+) resistor r=18526.32
+R0 (VDD net3) resistor r=20K
+NM16 (net9 net9 VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(10)*(1)
+NM15 (V\- V\- VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM14 (net1 VBP VSS VSS) nfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+NM7 (net6 VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM3 (Vout V\- net6 net6) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM4 (net4 V\+ net6 net6) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM5 (VBNR VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM0 (VBP VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+I18 (net17 net18 net15 net14 net16) Final_5OTA_LDO
+V1 (net2 0) vsource type=pulse edgetype=halfsine val0=0 val1=VBAT \
+        rise=TRISE_BAT
+V0 (VSS 0) vsource type=dc
+PM10 (VBNR net1 VDD VDD) pfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+PM9 (net1 VBP VDD VDD) pfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+PM2 (net4 net4 VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM6 (VPTAT net8 net7 net7) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+PM3 (Vout net4 VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM4 (V\- Vout VDD VDD) pfet_g5v0d10v5 w=(1u) l=500n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+PM5 (VBG Vout VDD VDD) pfet_g5v0d10v5 w=(1u) l=500n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+PM1 (VBNR VBP net3 net3) pfet_g5v0d10v5 w=(20u) l=500n as=5.3p ad=5.3p \
+        ps=40.53u pd=40.53u m=(1)*(1)
+PM0 (VBP VBP VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)

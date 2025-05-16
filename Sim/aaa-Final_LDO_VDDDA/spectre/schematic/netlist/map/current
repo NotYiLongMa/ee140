@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "aaa-Final_LDO_VDDDA"
+  repList "spectre veriloga ahdl cmos_sch schematic"
+  stopList "spectre veriloga ahdl"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/cc/ee140/sp25/class/ee140-aax/cadence_finalproj/Sim/aaa-Final_LDO_VDDDA/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "EE_140_240A_Final_Project/Final_5OTA_LDO/schematic" "Final_5OTA_LDO" )
+( "EE_140_240A_Final_Project/aaa-Final_LDO_VDDDA/schematic" "_sub1" )
+( "EE_140_240A_Final_Project/Final-BGR/schematic" "_sub0" )
+ )
+( "Final_5OTA_LDO" "ihnl/cds0/map" )
+( "_sub0" "ihnl/cds1/map" )
+( "_sub1" "ihnl/cds2/map" )
+ )

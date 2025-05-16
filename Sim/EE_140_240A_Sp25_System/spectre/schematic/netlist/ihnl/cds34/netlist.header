@@ -1,0 +1,5 @@
+
+// Library name: final_project_schematics
+// Cell name: 5t_ota
+// View name: schematic
+subckt final_project_schematics_5t_ota_schematic V\+ V\- VBN VDD VOUT VSS

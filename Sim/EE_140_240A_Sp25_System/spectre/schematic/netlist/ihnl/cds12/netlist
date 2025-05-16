@@ -1,0 +1,4 @@
+    V0 (VREF_ADC VSS) vsource dc=1 type=dc
+    I9 (VBG net4 VBAT VPTAT VSS) _sub1
+ends BGR_mockup
+// End of subcircuit definition.

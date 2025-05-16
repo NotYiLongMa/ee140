@@ -1,0 +1,105 @@
+// Generated for: spectre
+// Generated on: May  6 20:03:16 2025
+// Design library name: EE_140_240A_Final_Project
+// Design cell name: Final-BGR-adcref
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters VBAT=3.6 TRISE_BAT=100n
+include "/home/cc/ee140/sp25/class/ee140-aax/cadence_finalproj/sky130_release_0.0.4/libs/sky130_fd_pr_main/../../models/sky130.lib.spice" section=tt
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: Final_5OTA_LDO-adc
+// View name: schematic
+subckt _sub1 VDD VSS Vin\+ Vin\- Vout
+    NM1 (net7 VBNR VSS VSS) nfet_01v8 w=(2.5u) l=2u as=662.5f ad=662.5f \
+        ps=5.53u pd=5.53u m=(1)*(1)
+    NM5 (VBNR VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+    NM3 (VBP VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+    NM2 (Vout Vin\- net7 net7) nfet_g5v0d10v5 w=(750n) l=2u as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+    NM0 (net4 Vin\+ net7 net7) nfet_g5v0d10v5 w=(750n) l=2u as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+    PM3 (VBNR VBP net1 net1) pfet_g5v0d10v5 w=(25u) l=500n as=6.625p \
+        ad=6.625p ps=50.53u pd=50.53u m=(1)*(1)
+    PM2 (VBP VBP VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+    PM1 (Vout net4 VDD VDD) pfet_g5v0d10v5 w=(550n) l=2u as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    PM0 (net4 net4 VDD VDD) pfet_g5v0d10v5 w=(550n) l=2u as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    R0 (VDD net1) resistor r=20K
+ends _sub1
+// End of subcircuit definition.
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: Final-BGR-adcref
+// View name: schematic
+NM14 (net48 VBP VSS VSS) nfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+NM5 (VBNR VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM0 (VBP VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM3 (Vout V\- net51 net51) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+NM4 (net72 V\+ net51 net51) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+NM7 (net51 VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+NM2 (net49 net49 VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(10)*(1)
+NM1 (V\- V\- VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM9 (net48 VBP VDD VDD) pfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+PM1 (VBNR VBP net47 net47) pfet_g5v0d10v5 w=(25u) l=500n as=6.625p \
+        ad=6.625p ps=50.53u pd=50.53u m=(1)*(1)
+PM0 (VBP VBP VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM10 (VBNR net48 VDD VDD) pfet_g5v0d10v5 w=(750n) l=500n as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+PM8 (VOUT1 net5 VDD VDD) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p ad=13.25p \
+        ps=100.53u pd=100.53u m=(4)*(1)
+PM7 (VPTAT net76 net68 net68) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+PM2 (net72 net72 VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM3 (Vout net72 VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+PM4 (V\- Vout VDD VDD) pfet_g5v0d10v5 w=(1u) l=500n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+PM5 (VBG Vout VDD VDD) pfet_g5v0d10v5 w=(1u) l=500n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+R15 (VDD net6) resistor r=2
+R0 (VDD net47) resistor r=20K
+R8 (net4 VSS) resistor r=1000k
+R9 (net1 net4) resistor r=10k
+R3 (VPTAT net67) resistor r=12.15K
+R5 (net50 net3) resistor r=12.15k
+R1 (VBG V\+) resistor r=18.7k
+R2 (V\+ net49) resistor r=12.15k
+R4 (net2 net50) resistor r=18526.32
+I5 (VDD VSS VBG net1 net1) _sub1
+I4 (VDD VSS VOUT1 net4 net5) _sub1
+C3 (VOUT1 VSS) capacitor c=500f ic=0
+V1 (net6 0) vsource type=pulse edgetype=halfsine val0=0 val1=VBAT \
+        rise=TRISE_BAT
+V0 (VSS 0) vsource type=dc
+simulatorOptions options psfversion="1.4.0" reltol=100e-6 vabstol=1e-6 \
+    iabstol=1e-12 temp=70.0 tnom=27 homotopy=all limit=delta scalem=1.0 \
+    scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+tran tran stop=20u errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

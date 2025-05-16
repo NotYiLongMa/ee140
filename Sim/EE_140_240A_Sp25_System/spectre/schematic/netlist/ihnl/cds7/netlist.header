@@ -1,0 +1,5 @@
+
+// Library name: final_project_schematics
+// Cell name: pga_switches
+// View name: schematic
+subckt pga_switches A B CLK VDD VSS

@@ -1,0 +1,3 @@
+    I8 (VBAT VDDD VREF VSS) Final_LDO
+ends DREG_mockup
+// End of subcircuit definition.

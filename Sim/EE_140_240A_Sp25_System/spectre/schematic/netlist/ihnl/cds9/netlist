@@ -1,0 +1,12 @@
+    I3 (IN\<2\> net07 Sb\<0\> VDD VSS) mux_switches
+    I2 (IN\<3\> net07 S\<0\> VDD VSS) mux_switches
+    I4 (IN\<1\> net6 S\<0\> VDD VSS) mux_switches
+    I5 (IN\<0\> net6 Sb\<0\> VDD VSS) mux_switches
+    I6 (net07 OUT S\<1\> VDD VSS) mux_switches
+    I7 (net6 OUT Sb\<1\> VDD VSS) mux_switches
+    I1 (S\<1\> Sb\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I0 (S\<0\> Sb\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends mux_mockup_non_ideal
+// End of subcircuit definition.

@@ -1,0 +1,6 @@
+
+// Library name: final_project_schematics
+// Cell name: 2_stage_folded
+// View name: schematic
+subckt final_project_schematics_2_stage_folded_schematic V\+ V\- VDD VOUT \
+        VSS

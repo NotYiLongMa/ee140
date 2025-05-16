@@ -1,0 +1,21 @@
+    NM1 (net7 VBNR VSS VSS) nfet_01v8 w=(2.5u) l=2u as=662.5f ad=662.5f \
+        ps=5.53u pd=5.53u m=(1)*(1)
+    NM5 (VBNR VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+    NM3 (VBP VBNR VSS VSS) nfet_g5v0d10v5 w=(5u) l=500n as=1.325p \
+        ad=1.325p ps=10.53u pd=10.53u m=(1)*(1)
+    NM2 (Vout Vin\- net7 net7) nfet_g5v0d10v5 w=(750n) l=2u as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+    NM0 (net4 Vin\+ net7 net7) nfet_g5v0d10v5 w=(750n) l=2u as=198.75f \
+        ad=198.75f ps=2.03u pd=2.03u m=(1)*(1)
+    PM3 (VBNR VBP net1 net1) pfet_g5v0d10v5 w=(25u) l=500n as=6.625p \
+        ad=6.625p ps=50.53u pd=50.53u m=(1)*(1)
+    PM2 (VBP VBP VDD VDD) pfet_g5v0d10v5 w=(5u) l=500n as=1.325p ad=1.325p \
+        ps=10.53u pd=10.53u m=(1)*(1)
+    PM1 (Vout net4 VDD VDD) pfet_g5v0d10v5 w=(550n) l=2u as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    PM0 (net4 net4 VDD VDD) pfet_g5v0d10v5 w=(550n) l=2u as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    R0 (VDD net1) resistor r=20K
+ends _sub1
+// End of subcircuit definition.

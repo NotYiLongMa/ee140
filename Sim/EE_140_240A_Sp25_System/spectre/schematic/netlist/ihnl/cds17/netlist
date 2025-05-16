@@ -1,0 +1,5 @@
+    E1 (net2 net1 net4 net3) vcvs gain=1/4 type=vcvs
+    R1 (VBATDIV4 VSS) resistor r=10K
+    R0 (VBAT VBATDIV4) resistor r=30K
+ends VBATDIV4_mockup
+// End of subcircuit definition.

@@ -1,0 +1,9 @@
+    PM0 (VDD net1 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p \
+        ad=13.25p ps=100.53u pd=100.53u m=(20)*(1)
+    R1 (net3 VSS) resistor r=65.5k
+    R6 (VDD net3) resistor r=40.7k
+    C6 (VDD VSS) capacitor c=1n ic=0
+    I40 (net5 net4 VBAT net2 VSS) _sub1
+    I28 (VBAT VSS net3 net5 net1) Final_5OTA_LDO
+ends Final_LDO
+// End of subcircuit definition.

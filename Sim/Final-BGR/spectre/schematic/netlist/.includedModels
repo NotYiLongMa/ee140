@@ -1,0 +1,4 @@
+simulator lang=spectre
+include "nfet_01v8.scs"
+include "nfet_g5v0d10v5.scs"
+include "pfet_g5v0d10v5.scs"

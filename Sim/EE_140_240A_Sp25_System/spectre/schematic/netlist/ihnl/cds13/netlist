@@ -1,0 +1,9 @@
+    PM1 (VDD net7 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p \
+        ad=13.25p ps=100.53u pd=100.53u m=(100)*(1)
+    R1 (net2 VSS) resistor r=28k
+    R6 (VDD net2) resistor r=20.35k
+    I49 (VBAT VSS VREF net1 net1) Final_5OTA_LDO
+    I47 (net2 net1 net1 VBAT net7 VSS) \
+        final_project_schematics_5t_ota_schematic
+ends Final_LDO_VDDDA
+// End of subcircuit definition.

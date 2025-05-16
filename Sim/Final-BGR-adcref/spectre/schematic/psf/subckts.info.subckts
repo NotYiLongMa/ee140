@@ -1,0 +1,966 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "21.1.0.751.isr19"
+"date" "8:05:14 PM, Tue May 6, 2025"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.000100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"cap_vpp_06p8x06p1_m1m2m3_shieldl1m4" "subckt" (
+""
+""
+""
+)
+"pfet_01v8" "subckt" (
+""
+""
+""
+)
+"npn_11v0_W1p00L1p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_20v0_reverse_iso" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF08W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__esd_nfet_g5v0d10v5" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_g5v0d16v0" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W3p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5" "subckt" (
+""
+""
+""
+)
+"nfet_g5v0d10v5" "subckt" (
+"mult sb ad nrs as nf pd sa w ps sd l nrd"
+"d g s b"
+"NM14 NM5 NM0 NM3 NM4 NM7 NM2 NM1 I5.NM5 I5.NM3 I5.NM2 I5.NM0 I4.NM5 I4.NM3 I4.NM2 I4.NM0"
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_aF02W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_aF02W1p68L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2m3m4_shieldm5" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W5p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF08W0p84L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2_shieldl1" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"_sub1" "subckt" (
+""
+"VDD VSS Vin+ Vin- Vout"
+"I5 I4"
+)
+"nfet_03v3_nvt" "subckt" (
+""
+""
+""
+)
+"nfet_05v0_nvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W7p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p18" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p7x11p1_m1m2m3m4_shieldl1_fingercap" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__res_xhigh_po__base" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02" "subckt" (
+""
+""
+""
+)
+"pnp_05v5_W0p68L0p68" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__res_generic_nd" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p84L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W5p00" "subckt" (
+""
+""
+""
+)
+"res_high_po" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W7p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W3p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W7p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2_shieldl1" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__pfet_g5v0d16v0" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p7x21p1_m1m2m3m4_shieldl1_fingercap" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__res_generic_pd" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W5p00L0p50" "subckt" (
+""
+""
+""
+)
+"pfet_g5v0d10v5" "subckt" (
+"mult sb ad nrs as nf pd sa w ps sd l nrd"
+"d g s b"
+"PM9 PM1 PM0 PM10 PM8 PM7 PM2 PM3 PM4 PM5 I5.PM3 I5.PM2 I5.PM1 I5.PM0 I4.PM3 I4.PM2 I4.PM1 I4.PM0"
+)
+"sky130_fd_pr__rf_pfet_01v8_mvt_aF02W0p84L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p18" "subckt" (
+""
+""
+""
+)
+"cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2m3_shieldl1" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2m3_shieldl1" "subckt" (
+""
+""
+""
+)
+"res_xhigh_po_0p69" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM02W5p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p18" "subckt" (
+""
+""
+""
+)
+"res_xhigh_po_5p73" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W3p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__special_nfet_pass_flash" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM02W3p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_20v0_nvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__res_xhigh_po" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF04W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"pnp_05v5_W3p40L3p40" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_mvt_aF02W1p68L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2_noshield_o2" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv" "subckt" (
+""
+""
+""
+)
+"cap_vpp_03p9x03p9_m1m2_shieldl1_floatm3" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__pfet_01v8_mvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__esd_nfet_01v8" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_aF04W1p68L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W3p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM02" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM04" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__special_nfet_latch" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2_noshield_o1nhv" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv__base" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_20v0_zvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_mvt_aF04W1p68L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__pfet_20v0" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W7p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_aF02W0p84L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_l1m1m2_noshield_o1" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__special_nfet_pass" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p7x41p1_m1m2m3m4_shieldl1_fingercap" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_g5v0d16v0__base" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p9x06p1_m1m2m3m4_shieldl1_fingercap2" "subckt" (
+""
+""
+""
+)
+"nfet_01v8_lvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2_shieldpom3" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__res_generic_po" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__special_nfet_pass_lvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__special_pfet_pass" "subckt" (
+""
+""
+""
+)
+"nfet_01v8" "subckt" (
+"mult sb ad nrs as nf pd sa w ps sd l nrd"
+"d g s b"
+"I5.NM1 I4.NM1"
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W5p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM02W5p00" "subckt" (
+""
+""
+""
+)
+"res_high_po_0p35" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF02W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p25" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_m1m2m3_shieldl1" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p18" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00" "subckt" (
+""
+""
+""
+)
+"pfet_01v8_lvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF04W0p84L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_l1m1m2_noshield_o1" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W5p00L0p50" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_aF02W5p00L0p15" "subckt" (
+""
+""
+""
+)
+"npn_05v5_W1p00L1p00" "subckt" (
+""
+""
+""
+)
+"res_high_po_1p41" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W5p00" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_m1m2_shieldl1" "subckt" (
+""
+""
+""
+)
+"res_high_po_2p85" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"res_xhigh_po_2p85" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM02" "subckt" (
+""
+""
+""
+)
+"cap_mim_m3_1" "subckt" (
+""
+""
+""
+)
+"pfet_01v8_hvt" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_m1m2_noshield_o1phv" "subckt" (
+""
+""
+""
+)
+"npn_05v5_W1p00L2p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_20v0" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p25" "subckt" (
+""
+""
+""
+)
+"cap_mim_m3_2" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_m1m4_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__pfet_g5v0d16v0__base" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p18" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p15" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p18" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_l1m1m2_shieldpo_floatm3" "subckt" (
+""
+""
+""
+)
+"res_xhigh_po_0p35" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__model__parasitic__res_po" "subckt" (
+""
+""
+""
+)
+"cap_vpp_05p9x05p9_m1m2m3m4_shieldl1_wafflecap" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W5p00" "subckt" (
+""
+""
+""
+)
+"res_xhigh_po_1p41" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p42L0p15" "subckt" (
+""
+""
+""
+)
+"cap_vpp_01p8x01p8_m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"cap_vpp_08p6x07p8_l1m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p25" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p3x11p3_m1m2m3m4_shieldl1_wafflecap" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p7x06p1_m1m2m3m4_shieldl1_fingercap" "subckt" (
+""
+""
+""
+)
+"cap_vpp_04p4x04p6_l1m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__nfet_20v0_iso" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__esd_pfet_g5v0d10v5" "subckt" (
+""
+""
+""
+)
+"cap_vpp_11p5x11p7_l1m1m2m3_shieldm4" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__cap_var_lvt" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p25" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p18" "subckt" (
+""
+""
+""
+)
+"res_high_po_5p73" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield" "subckt" (
+""
+""
+""
+)
+"cap_vpp_02p4x04p6_m1m2_noshield" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM04" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W5p00" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_pfet_01v8_bM02W3p00" "subckt" (
+""
+""
+""
+)
+"res_high_po_0p69" "subckt" (
+""
+""
+""
+)
+"sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W3p00L0p50" "subckt" (
+""
+""
+""
+)
+END

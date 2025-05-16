@@ -1,0 +1,32 @@
+    C4 (V\- net016) capacitor c=4*C0
+    C7 (V\- net1) capacitor c=C0
+    C6 (V\- net014) capacitor c=C0
+    C8 (VOUT V\-) capacitor c=C0
+    C5 (V\- net015) capacitor c=2*C0
+    I30 (VOUT VSS CLK1 VDD VSS) mux_switches
+    I29 (V\- VSS CLK1 VDD VSS) mux_switches
+    I5 (G\<2\> CLK1 X\<2\> VDD VSS) AND2HDX0_dupe
+    I4 (G\<1\> CLK1 X\<1\> VDD VSS) AND2HDX0_dupe
+    I3 (G\<0\> CLK1 X\<0\> VDD VSS) AND2HDX0_dupe
+    I12 (CLK2 GB\<2\> CLK2_GATE\<2\> VDD VSS) OR2HDX0_dupe
+    I11 (CLK2 GB\<1\> CLK2_GATE\<1\> VDD VSS) OR2HDX0_dupe
+    I6 (CLK2 GB\<0\> CLK2_GATE\<0\> VDD VSS) OR2HDX0_dupe
+    I13 (G\<2\> GB\<2\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I9 (G\<0\> GB\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I10 (G\<1\> GB\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I18 (VSS V\- VDD VOUT VSS) \
+        final_project_schematics_2_stage_folded_schematic
+    I17 (VDD net4 VSS net5 VSS) opamp_mockup Rout=0
+    I25 (net015 VIN X\<1\> VDD VSS) pga_switches
+    I22 (VSS net016 CLK2_GATE\<2\> VDD VSS) pga_switches
+    I26 (net016 VIN X\<2\> VDD VSS) pga_switches
+    I21 (VSS net015 CLK2_GATE\<1\> VDD VSS) pga_switches
+    I24 (net014 VIN X\<0\> VDD VSS) pga_switches
+    I20 (VSS net014 CLK2_GATE\<0\> VDD VSS) pga_switches
+    I23 (net1 VIN CLK1 VDD VSS) pga_switches
+    I19 (VSS net1 CLK2 VDD VSS) pga_switches
+ends PGA_mockup
+// End of subcircuit definition.

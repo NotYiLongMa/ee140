@@ -1,0 +1,16 @@
+    W2 (IN\<2\> net1 Sb\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W4 (net2 OUT Sb\<1\> VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    W3 (IN\<3\> net1 S\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W5 (net1 OUT S\<1\> VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    W0 (IN\<0\> net2 Sb\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W1 (IN\<1\> net2 S\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    I1 (S\<1\> Sb\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I0 (S\<0\> Sb\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends mux_mockup
+// End of subcircuit definition.

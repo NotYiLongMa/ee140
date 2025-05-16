@@ -1,0 +1,5 @@
+( ( model
+( "Final_5OTA_LDO-adc" "_sub1" )
+( "Final-BGR-adcref" "_sub0" )
+ )
+ )

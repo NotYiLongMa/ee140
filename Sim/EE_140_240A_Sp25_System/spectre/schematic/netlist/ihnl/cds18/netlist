@@ -1,0 +1,18 @@
+    NM3 (not_PHIA PHIA VSS VSS) nfet_01v8 w=(420n) l=150n as=111.3f \
+        ad=111.3f ps=1.37u pd=1.37u m=(1)*(1)
+    NM2 (not_PHIB PHIB VSS VSS) nfet_01v8 w=(420n) l=150n as=111.3f \
+        ad=111.3f ps=1.37u pd=1.37u m=(1)*(1)
+    NM1 (OUT PHIB B VSS) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(4)*(1)
+    NM0 (OUT PHIA A VSS) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(4)*(1)
+    PM3 (not_PHIA PHIA VDD VDD) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    PM2 (not_PHIB PHIB VDD VDD) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    PM1 (OUT not_PHIB B VDD) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(16)*(1)
+    PM0 (OUT not_PHIA A VDD) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(16)*(1)
+ends switch2_mockup_non_ideal
+// End of subcircuit definition.

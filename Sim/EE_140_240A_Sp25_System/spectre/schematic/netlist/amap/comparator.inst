@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"NM8n NM7n NM6n NM5n NM9n NM10n" "sky130_fd_pr_main_pfet_01v8_lvt_spectre"
+"NM11n NM14n NM15n NM12n NM13n" "sky130_fd_pr_main_nfet_01v8_lvt_spectre"
+"I30n I29n I28n I27n" "invr_dupe_schematic"
+"CLKv" ":1v"
+"CP_Vout+v" ":2v"
+"CP_Vout-v" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"
+"Vcompv" ":6v"
+"Vrefv" ":7v"

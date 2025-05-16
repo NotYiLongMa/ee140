@@ -1,0 +1,15 @@
+"hnlProcessDifferentPmAndInstTerminalRepresentation" nil
+"_dspfFullDesignInfo" nil
+"dspfBindingToCell" "bindToAll"
+"issueInfoMsgOnCellRename" nil
+"printComments" (nil nil)
+"setTopLevelAsSubckt" nil
+"preserveSubcktTermNamesByOrder" nil
+"supportDspfMasterOption" nil
+"dspfBindingSummary" nil
+"termMismatch" "default"
+"srcFileMappingInfo" nil
+"_dspfFileToEnvOptionsMapInfo" nil
+"dutlcv" "slotUnbound/slotUnbound/slotUnbound"
+"changedSubcktNames" (("final_project_schematics_5t_ota_schematic" ("final_project_schematics" "5t_ota" "schematic")) ("final_project_schematics_2_stage_folded_schematic" ("final_project_schematics" "2_stage_folded" "schematic")) ("_sub1" ("EE_140_240A_Final_Project" "Final-BGR" "schematic")))
+"termDirectionMismatch" "default"

@@ -1,0 +1,5 @@
+
+// Library name: final_project_schematics
+// Cell name: mux_switches
+// View name: schematic
+subckt mux_switches A B CLK VDD VSS

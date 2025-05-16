@@ -1,0 +1,5 @@
+    E5 (net3 net2 net5 net4) vcvs gain=10 type=vcvs min=0 max=1.8
+    C2 (VDDA VSS) capacitor c=1n
+    I6 (VBAT VDDA VREF VSS) Final_LDO_VDDDA
+ends AREG_mockup
+// End of subcircuit definition.

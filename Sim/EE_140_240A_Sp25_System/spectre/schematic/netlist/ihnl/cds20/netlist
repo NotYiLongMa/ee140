@@ -1,0 +1,32 @@
+    PM6 (Y X VDD VDD) pfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    PM3 (Y CLK VDD VDD) pfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    PM2 (net3 CLK VDD VDD) pfet_01v8 w=(600n) l=300n as=159f ad=159f \
+        ps=1.73u pd=1.73u m=(1)*(1)
+    PM1 (X CLK VDD VDD) pfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    PM0 (net1 CLK VDD VDD) pfet_01v8 w=(600n) l=300n as=159f ad=159f \
+        ps=1.73u pd=1.73u m=(1)*(1)
+    NM4 (net5 CLK VSS VSS) nfet_01v8 w=(600n) l=300n as=159f ad=159f \
+        ps=1.73u pd=1.73u m=(1)*(1)
+    NM3 (net3 VDAC net5 net5) nfet_01v8 w=(420n) l=300n as=111.3f \
+        ad=111.3f ps=1.37u pd=1.37u m=(1)*(1)
+    NM2 (net1 V_REF net5 net5) nfet_01v8 w=(420n) l=300n as=111.3f \
+        ad=111.3f ps=1.37u pd=1.37u m=(1)*(1)
+    NM1 (X Y net1 net1) nfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    NM0 (Y X net3 net3) nfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    NM5 (VDD Y X VDD) nfet_01v8 w=(600n) l=300n as=159f ad=159f ps=1.73u \
+        pd=1.73u m=(1)*(1)
+    I3 (net4 VOUT_BIGGER VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I2 (Y net4 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I1 (net2 VOUT_SMALLER VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I0 (X net2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends strongarm
+// End of subcircuit definition.

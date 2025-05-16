@@ -1,0 +1,28 @@
+CADENCE IHNL11140
+$model
+EE_140_240A_Final_Project/Final-BGR/schematic _sub0
+EE_140_240A_Final_Project/Final_5OTA_LDO/schematic Final_5OTA_LDO
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+G_1 G_1
+VDDD_IDEAL VDDD_IDEAL
+SCC SCC
+G_2 G_2
+VIN_1 VIN_1
+VDDA_IDEAL VDDA_IDEAL
+VBAT VBAT
+G_0 G_0
+S_1 S_1
+S_0 S_0
+w w
+TR_D TR_D
+R R
+_EXPR_7 _EXPR_7
+VIN_0 VIN_0
+NBAT NBAT
+FCLK FCLK
+TRISE_BAT TRISE_BAT
+$endparam

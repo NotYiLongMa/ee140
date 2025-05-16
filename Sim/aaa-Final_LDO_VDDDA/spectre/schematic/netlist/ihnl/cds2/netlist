@@ -1,0 +1,14 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: aaa-Final_LDO_VDDDA
+// View name: schematic
+PM1 (VDD net1 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p ad=13.25p \
+        ps=100.53u pd=100.53u m=(100)*(1)
+R15 (VBAT net2) resistor r=2
+R1 (net3 VSS) resistor r=28k
+R6 (VDD net3) resistor r=20.35k
+V1 (net2 0) vsource type=pulse edgetype=halfsine val0=0 val1=2 rise=100n
+C0 (VDD VSS) capacitor c=1p
+I45 (net6 net5 VBAT net4 VSS) _sub0
+V0 (VSS 0) vsource type=dc
+I28 (VBAT VSS net3 net6 net1) Final_5OTA_LDO

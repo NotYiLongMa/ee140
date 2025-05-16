@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"E5n" "analogLib_vcvs_spectre"
+"C2n" "analogLib_cap_spectre"
+"I6n" "Final_LDO_VDDDA"
+"VBATv" ":1v"
+"VDDAv" ":2v"
+"VREFv" ":3v"
+"VSSv" ":4v"

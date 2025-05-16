@@ -1,0 +1,6 @@
+    X_CAPDAC (D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> LOAD \
+        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup C0=10f
+    I6 (net8 net6 net5 net7 net9) opamp_mockup Rout=100
+    I9 (CLK VDAC VDD COMP_OUT net1 VSS VREF) strongarm
+ends ADC_mockup
+// End of subcircuit definition.

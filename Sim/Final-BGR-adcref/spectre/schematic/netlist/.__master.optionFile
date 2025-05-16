@@ -1,0 +1,15 @@
+"issueInfoMsgOnCellRename" nil
+"dspfBindingToCell" "bindToAll"
+"_dspfFullDesignInfo" nil
+"hnlProcessDifferentPmAndInstTerminalRepresentation" nil
+"printComments" (nil nil)
+"termMismatch" "default"
+"dspfBindingSummary" nil
+"supportDspfMasterOption" nil
+"preserveSubcktTermNamesByOrder" nil
+"setTopLevelAsSubckt" nil
+"dutlcv" "slotUnbound/slotUnbound/slotUnbound"
+"_dspfFileToEnvOptionsMapInfo" nil
+"srcFileMappingInfo" nil
+"changedSubcktNames" (("_sub1" ("EE_140_240A_Final_Project" "Final_5OTA_LDO-adc" "schematic")) ("_sub0" ("EE_140_240A_Final_Project" "Final-BGR-adcref" "schematic")))
+"termDirectionMismatch" "default"
